@@ -1,0 +1,21 @@
+{
+  "name": "coalition/exam",
+  "description": "coalition technologies applicant exam",
+  "type": "project",
+  "require-dev": {
+    "php": "^8.1",
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Coalition\\Exam\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tanvir Shaikat",
+      "email": "ta.shaikat@gmail.com"
+    }
+  ]
+}
