@@ -11,3 +11,9 @@ Changing either the test or the class to be consistent is necessary for the unit
 **Update made:**  
 I've updated `testHasFunctionExists()` to change `"has"` to `"has_"` in `SkillTest.php` to ensure consistency with the required prefix.
 
+**Instructions to Run:**
+After installing PHPUnit 9.5 with PHP 8.1, run the following command in the terminal:
+
+```bash
+vendor/bin/phpunit --bootstrap vendor/autoload.php tests/SkillTest.php
+
